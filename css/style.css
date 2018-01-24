@@ -10,3 +10,7 @@
 #p3{
   background-color: red;
 }
+.img{
+  max-width: 500px;
+  width: 100%;
+}
