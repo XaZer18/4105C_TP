@@ -2,6 +2,12 @@
    width: device-width; /* largeur du viewport */
    zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
 }
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+  width: device-width; /* largeur du viewport */
+  zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
+}
 
 *{
   font-family: 'Roboto Condensed', sans-serif;
