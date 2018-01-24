@@ -2,4 +2,5 @@ CACHE MANIFEST
 index.html
 css/style.css
 img/calais.jpg
-favicons/*
+favicons/favicon.ico
+favicons/apple-touch-icon.png
