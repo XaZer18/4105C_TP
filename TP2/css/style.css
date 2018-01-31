@@ -11,7 +11,8 @@
   background-color: red;
 }
 #form{
-  margin: 5px 0 5px 0;
+  margin: 5px 0 20px 0;
+  text-align: center;
 }
 #iut{
   width: 300px;
@@ -26,13 +27,23 @@
 }
 input{
   width: 150px;
+  border: solid 1px grey;
+  align-items: center;
+}
+label{
+  display: block;
+  margin: 2px;
 }
 
 @media all and (max-device-width: 480px){
   input{
-    width: 48%;
-    display: inline-flex;
-    margin: 0;
+    align-items: center;
+  }
+}
+
+@media screen and (-webkit-max-device-pixel-ratio: 2){
+  #iut{
+    content: url("../img/logo-iutx300.jpg");
   }
 }
 
