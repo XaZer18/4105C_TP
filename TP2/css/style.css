@@ -45,14 +45,16 @@ th{
   background-color: lightgrey;
   border: solid 1px black;
 }
-tr{
+table{
   border: solid 1px black;
+  padding-right: 3px;
 }
 
 /* MEDIA */
 @media all and (max-device-width: 500px){
   input{
     align-items: center;
+    width: 50%;
   }
   table{
     width: 100%;
@@ -64,6 +66,15 @@ tr{
   }
   td{
     border: 0 none;
+  }
+  #iut{
+    width: 100%;
+  }
+}
+
+@media all and (max-device-width: 350px){
+  input{
+    width: 75%;
   }
 }
 
