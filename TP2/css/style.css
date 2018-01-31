@@ -1,3 +1,34 @@
+/* MEDIA */
+@media all and (max-device-width: 500px){
+  input{
+    align-items: center;
+  }
+  table{
+    width: 100%;
+  }
+  td, th{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  td{
+    border: 0 none;
+  }
+}
+
+@media screen and (-webkit-max-device-pixel-ratio: 2){
+  #iut{
+    content: url("../img/logo-iutx300.jpg");
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2){
+  #iut{
+    content: url("../img/logo-iut-hq.jpg");
+  }
+}
+
+/* CLASSIC */
 *{
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -19,6 +50,8 @@
   display: block;
   margin: 0 auto;
 }
+
+
 .img{
   max-width: 500px;
   width: 100%;
@@ -35,20 +68,11 @@ label{
   margin: 2px;
 }
 
-@media all and (max-device-width: 480px){
-  input{
-    align-items: center;
-  }
+td{
+  border: solid 1px black;
 }
 
-@media screen and (-webkit-max-device-pixel-ratio: 2){
-  #iut{
-    content: url("../img/logo-iutx300.jpg");
-  }
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 2){
-  #iut{
-    content: url("../img/logo-iut-hq.jpg");
-  }
+th{
+  background-color: lightgrey;
+  border: solid 1px black;
 }
