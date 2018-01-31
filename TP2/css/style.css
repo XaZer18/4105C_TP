@@ -10,6 +10,9 @@
 #p3{
   background-color: red;
 }
+#form{
+  margin: 5px 0 5px 0;
+}
 #iut{
   width: 300px;
   display: block;
@@ -25,12 +28,16 @@ input{
   width: 150px;
 }
 
-@media screen and (min-device-aspect-ratio: ){
-
+@media all and (max-device-width: 480px){
+  input{
+    width: 48%;
+    display: inline-flex;
+    margin: 0;
+  }
 }
 
-@media screen and (max-device-width: 400px){
-  input{
-    width: 50%;
+@media screen and (-webkit-min-device-pixel-ratio: 2){
+  #iut{
+    content: url("../img/logo-iut-hq.jpg");
   }
 }
