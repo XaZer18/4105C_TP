@@ -1,7 +1,33 @@
 /* CLASSIC */
 *{
   font-family: 'Teko', sans-serif;
+  font-weight: lighter;
   font-size: 20px;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+h2{
+  font-size: 2em;
+}
+h3{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 0.8em;
+  margin: 10px 0 10px 0;
+  color: #686868;
+  line-height: 1.625;
+}
+p.small{
+  font-size: 0.65em;
 }
 
 body{
@@ -10,14 +36,26 @@ body{
 
 /* HEADER */
 header{
-    background-color: rgb(251, 100, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: black; */
     width: 100%;
     height: 80px;
     display: flex;
+    /* opacity: 1; */
+    position: relative;
+    z-index: 10;
 }
-header #logo{
+header:hover{
+  background-color: rgba(0, 0, 0, 1);
+}
+header #boiteLogo{
+  height: 100%;
+  margin: auto auto auto 30px;
+  background-color: rgb(251, 100, 0);
+}
+header img#logo{
   height: 75%;
-  margin: auto auto auto 10px;
+  margin-top: 10px;
 }
 header #menu{
   margin: auto auto auto auto;
@@ -27,15 +65,26 @@ header #menu a{
   margin-right: 10px;
   text-decoration: none;
   color: white;
+  opacity: 0.7;
+}
+header #menu a:hover{
+  color: rgb(251, 100, 0);
+  opacity: 1;
 }
 header #menu input{
   border-radius: 5px;
   padding-left: 3px;
+  opacity: 0.7;
+}
+header #menu input:hover{
+  opacity: 1;
 }
 
 #imageBandeau{
-  height: 300px;
+  height: 380px;
+  margin-top: -80px;
   width: 100%;
+  z-index: 0;
 }
 .image{
   background-size: cover;
@@ -43,83 +92,131 @@ header #menu input{
   height: 100%;
 }
 
-
-
-
-#form{
-  margin: 5px 0 20px 0;
-  text-align: center;
+/* Introduction */
+#paragrapheIntro{
+  margin: 0 30px 0 30px;
+  display: inline-flex;
 }
-
-.img{
-  max-width: 500px;
+#paragrapheIntro div{
+  width: 40%;
+  display: block;
+  margin: auto auto auto auto;
+}
+#paragrapheIntro img{
   width: 100%;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 10px;
+  height: auto;
+}
+#paragrapheIntro h1{
+  text-transform: uppercase;
 }
 
-form{
-  display: block;
+/* 4 photos */
+#photos4{
+  width: 100%;
+  display: inline-flex;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.bloc4photos{
+  width: 15%;
   margin: 0 auto;
-  width: 50%;
-  padding: 10px 0 10px 0;
-  border: solid white 1px;
-  border-radius: 5px;
 }
-input{
-  width: 150px;
-  border: solid 1px grey;
-  align-items: center;
-  color: black;
-}
-label{
-  display: block;
-  margin: 2px;
+.bloc4photos img{
+  width: 100%;
+  height: auto;
 }
 
-td{
-  border: solid 1px white;
+/* MAP ET FORMULAIRE*/
+#mapForm{
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 40px;
 }
-th{
-  background-color: lightgrey;
-  border: solid 1px white;
+#mapForm h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 5%;
+}
+#map{
+  width: 50%;
+  height: 100%;
+}
+iframe{
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  height: 300px;
+}
+#mapForm .separateur{
+  width: 1px;
+  height: auto;
+  border-right: solid black 1px;
+}
+#form{
+  width: 50%;
+  display: block;
+  padding: 0 20px 0 20px;
+}
+#form form{
+  width: 100%;
+}
+#form input{
+  width: 100%;
+  height: 30px;
+  border: solid 1px grey;
   color: black;
+  margin: 5px 5px 10px 5px;
+  padding-left: 5px;
+  box-sizing: border-box;
 }
-table{
-  border-radius: 5px;
-  border: solid 1px white;
-  padding-right: 3px;
+.col2{
+  display: flex;
+  width: 100%;
+}
+.col1{
+  width: 100%;
 }
 
 /* MEDIA */
-@media all and (max-device-width: 500px){
+@media screen and (max-width: 700px){
 
-  form{
-    width: 100%;
-  }
-  input{
-    align-items: center;
-    width: 50%;
-  }
-  table{
-    width: 100%;
-  }
-  td, th{
+  /* Introduction */
+  #paragrapheIntro{
     display: block;
+  }
+  #paragrapheIntro div{
     width: 100%;
-    text-align: center;
+    display: block;
   }
-  td{
-    border: 0 none;
-  }
-  #iut{
+  #paragrapheIntro img{
     width: 100%;
-    border-radius: 10px;
+    height: auto;
   }
-  #calais{
-    border-radius: 10px;
+
+}
+
+@media screen and (max-width: 500px){
+
+  h1{
+    font-size: 2.5em;
+    margin: 10px 0 10px 0;
+  }
+  p{
+    font-size: 0.5em;
+  }
+
+  /* Introduction */
+  #paragrapheIntro{
+    display: block;
+  }
+  #paragrapheIntro div{
+    width: 100%;
+    display: block;
+  }
+  #paragrapheIntro img{
+    width: 100%;
+    height: auto;
   }
 
 }

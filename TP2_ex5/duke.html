@@ -4,18 +4,20 @@
     <meta charset="utf-8">
     <title>390 Duke</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Teko:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Teko:300,400" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon.ico">
     <meta name="theme-color" content="#ffffff">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   </head>
 
   <body>
 
     <header>
-      <img id="logo" src="img/390DukeLogo.png" alt="logo">
+      <div id="boiteLogo">
+        <img id="logo" src="img/duke/390DukeLogo.png" alt="logo">
+      </div>
       <div id="menu">
         <a href="https://xazer18.github.io/4105C_TP/TP2_ex5/duke.html">Accueil</a>
         <a href="https://xazer18.github.io/4105C_TP/TP2_ex5/duke.html">Titre 1</a>
@@ -25,27 +27,71 @@
     </header>
 
     <section id="imageBandeau">
-      <div class="image" style="background-image:url(img/duke2.jpg)"></div>
+      <div class="image" style="background-image:url(img/duke/duke2.jpg)"></div>
+    </section>
+
+    <section id="paragrapheIntro">
+      <div>
+        <img src="img/duke/dukeOrange390.png" alt="image">
+      </div>
+      <div>
+        <h1>KTM 390 Duke 2018</h1>
+        <p>La KTM 390 DUKE fait revivre les valeurs qui ont rendu la moto si extraordinaire pendant des décennies. Elle associe un plaisir de pilotage maximal avec une valeur optimale pour l’utilisateur, et elle reste la meilleure sur tous les terrains où la maniabilité est essentielle. Légère comme une plume, puissante et bourrée de technologie avancée, elle t’offre un pilotage passionnant, que tu sois dans la jungle urbaine ou au milieu d’une succession de virages. 390 DUKE – Tu ne trouveras jamais un meilleur investissement moto.</p>
+      </div>
+    </section>
+
+    <section id="photos4">
+      <div class="bloc4photos">
+          <img src="img/duke/moteur390.jpg" alt="image">
+          <h3>Moteur</h3>
+          <p class="small">Le moteur monocylindre ultramoderne de la KTM 390 DUKE avec double arbre à cames en tête reflète à nouveau le savoir-faire des ingénieurs de KTM</p>
+      </div>
+      <div class="bloc4photos">
+          <img src="img/duke/embrayage390.jpg" alt="image">
+          <h3>embrayage anti-dribble</h3>
+          <p class="small">Non seulement l’embrayage anti-dribble s’ouvre lorsque le contre-couple du moteur devient trop élevé, mais il t’assiste aussi lorsque tu ouvres le papillon des gaz</p>
+      </div>
+      <div class="bloc4photos">
+          <img src="img/duke/phare390.jpg" alt="image">
+          <h3>Phare à LED</h3>
+          <p class="small">Ce phare à LED est un modèle de conception intelligente et une référence claire à la KTM 1290 SUPER DUKE R</p>
+      </div>
+      <div class="bloc4photos">
+          <img src="img/duke/tft390.jpg" alt="image">
+          <h3>écran couleur tft</h3>
+          <p class="small">Une combinaison multicolore d’informations pertinentes qui présente toutes les données importantes de manière claire et sobre</p>
+      </div>
     </section>
 
 
-    <section id="form">
-      <form action="index.html" method="post">
+    <section id="mapForm">
+      <div id="map">
+          <h2>Trouver un concessionnaire KTM</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5653056.143520305!2d2.0516999500000006!3d46.22475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1519207772371"></iframe>
+      </div>
+      <div class="separateur"></div>
+      <div id="form">
+          <h2>Newsletter KTM</h3>
+          <form action="duke.html" method="post">
+              <div class="col2">
+                  <input type="text" name="prenom" placeholder="Prenom">
+                  <input type="text" name="nom" placeholder="Nom">
+              </div>
+              <div class="col2">
+                  <input type="date" name="date" placeholder="Date de naissance">
+                  <input type="text" name="villeNaissance" placeholder="Ville de naissance">
+              </div>
+              <div class="col1">
+                  <input type="email" name="email" placeholder="Adresse email"/>
+              </div>
+              <div class="col1">
+                  <input type="file" name="photo" placeholder="Photo"/>
+              </div>
 
-        <label for="nom">Nom</label>
-        <input type="text" name="nom" placeholder="Nom"><br>
-        <label for="date">Date</label>
-        <input type="date" name="date" placeholder="Date de naissance"><br>
-        <label for="age">Âge</label>
-        <input type="number" pattern="\d*" name="age" placeholder="Age"><br>
-        <label for="fb">Facebook</label>
-        <input type="url" name="fb" placeholder="facebook.com/prenom.nom"><br>
-        <label for="email">@</label>
-        <input type="email" name="email" placeholder="exemple@exemple.com"/><br>
-        <label for="tel">Tel</label>
-        <input type="number" pattern="\d*" name="tel" value="0612345678">
+              <input type="submit" name="envoyer" value="Envoyer">
+          </form>
+      </div>
 
-      </form>
     </section>
 
   </body>
