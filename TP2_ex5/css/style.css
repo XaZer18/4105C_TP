@@ -184,7 +184,7 @@ iframe{
 
   /* Bandeau */
   .image{
-    background-image: url(../img/duke/duke2resp.jpg);
+    background-image: url(../img/duke/duke2tablette.jpg);
   }
 
   /* Introduction */
@@ -250,7 +250,13 @@ iframe{
     margin: 10px 0 10px 0;
   }
   p{
-    font-size: 0.5em;
+    font-size: 0.7em;
+    text-align: center;
+  }
+
+  /* Bandeau */
+  .image{
+    background-image: url(../img/duke/duke2mobile.jpg);
   }
 
   /* Introduction */
