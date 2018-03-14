@@ -48,9 +48,9 @@ header{
 #menuMobile{
   display: none;
 }
-header:hover{
+/* header:hover{
   background-color: rgba(0, 0, 0, 1);
-}
+} */
 header #boiteLogo{
   height: 100%;
   margin: auto auto auto 30px;
@@ -250,9 +250,6 @@ iframe{
 
   header{
     height: 50px;
-  }
-  header:hover{
-    background-color: rgba(0, 0, 0, 0.7);
   }
 
   #menu{
