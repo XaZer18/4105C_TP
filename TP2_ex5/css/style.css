@@ -251,6 +251,9 @@ iframe{
   header{
     height: 50px;
   }
+  header:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+  }
 
   #menu{
     display: none;
