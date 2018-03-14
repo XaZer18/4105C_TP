@@ -21,7 +21,7 @@ div.screen{
 .item{
 	height:115px;.menu-splitR li:nth-of-type(3)
 	margin-top:30px 0;
-	padding-left:115px;
+	/* padding-left:115px; */
 	clear:both;
 }
 .item .img, .item span{background:#214273; border-radius:3px;}
@@ -32,14 +32,16 @@ div.screen{
 div.burger {
 	height: 30px;
 	width: 40px;
-  margin-top: -10px;
 	cursor: pointer;
+  margin: auto;
+  float: right;
+  position: relative;
 }
+
 	div.x,
 	div.y,
 	div.z {
-		position: absolute; margin: auto;
-		top: 0px; bottom: 0px;
+		position: absolute; margin: auto auto auto auto;
 		background: #fff;
 		border-radius:2px;
 		-webkit-transition: all 200ms ease-out;
@@ -49,10 +51,11 @@ div.burger {
 		        transition: all 200ms ease-out;
 	}
 	div.x, div.y, div.z { height: 3px; width: 26px; }
-	div.y{top: 18px;}
-	div.z{top: 37px;}
+  div.x{top: 5px;}
+	div.y{top: 14px;}
+	div.z{top: 23px;}
 	div.collapse{
-		top: 20px;
+		top: 15px;
 		-webkit-transition: all 70ms ease-out;
 		   -moz-transition: all 70ms ease-out;
 		    -ms-transition: all 70ms ease-out;
@@ -110,9 +113,9 @@ div.menu-bg{
 	width: 100vw;
 	height: 100vw;
 	position:absolute;
-  top:0;
+  /* top:0; */
   left:0;
-	background:#40435b;
+	background: rgb(251, 100, 0);
 	opacity:0;
 	-webkit-transition: all 300ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
 	   -moz-transition: all 300ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
@@ -130,21 +133,26 @@ div.menu-bg.animate{
 
 }
 div.menu {
-	height: 568px;
+	height: 100vw;
 	width: 100%;
 }
 .menu-splitL, .menu-splitR{
+  margin: 0 auto;
   overflow:hidden;
 	position: absolute;
 	top: 90px;
-	left: 0px;
-	width:160px;
+	/* left: 0px; */
+	width:100%;
 }
-.menu-splitR{left:160px;}
+
+.menu-splitL{
+  display: none;
+}
 
 div.menu ul li {
+  display: none;
 	list-style: none;
-	width:320px;
+	width: 100px;
 	margin-top:40px;
 	text-align:center;
 	font-size:19px;
@@ -167,6 +175,7 @@ section > div {
 }
 
 div.menu li.animate{
+  display: block;
 	font-size:19px;
 	opacity:1;
 	-webkit-transition: all 200ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
@@ -177,7 +186,7 @@ div.menu li.animate{
 }
 
 .menu-splitL li:nth-of-type(1){	margin-left:44px;transition-delay: 0.12s;}
-.menu-splitL li.animate:nth-of-type(1){	margin-left:0;	transition-delay: 0.0s;	}
+.menu-splitL li.animate:nth-of-type(1){	margin: 0; transition-delay: 0.0s;	}
 
 .menu-splitL li:nth-of-type(2){	margin-left:41px;	transition-delay: 0.09s;}
 .menu-splitL li.animate:nth-of-type(2){	margin-left:0;	transition-delay: 0.05s;}
@@ -193,17 +202,17 @@ div.menu li.animate{
 
 
 
-.menu-splitR li:nth-of-type(1){	margin-left:-201px;transition-delay: 0.12s;}
-.menu-splitR li.animate:nth-of-type(1){	margin-left:-160px;	transition-delay: 0.0s;	}
+.menu-splitR li:nth-of-type(1){	margin-left:100px;transition-delay: 0.12s;}
+.menu-splitR li.animate:nth-of-type(1){	margin-left:0px;	transition-delay: 0.0s;	}
 
-.menu-splitR li:nth-of-type(2){	margin-left:-203px;	transition-delay: 0.069s;}
-.menu-splitR li.animate:nth-of-type(2){	margin-left:-160px;	transition-delay: 0.05s;}
+.menu-splitR li:nth-of-type(2){	margin-left:-100px;	transition-delay: 0.069s;}
+.menu-splitR li.animate:nth-of-type(2){	margin-left:0px;	transition-delay: 0.05s;}
 
-.menu-splitR li:nth-of-type(3){	margin-left:-214px;	transition-delay: 0.06s;}
-.menu-splitR li.animate:nth-of-type(3){	margin-left:-160px;	transition-delay: 0.1s;}
+.menu-splitR li:nth-of-type(3){	margin-left:100px;	transition-delay: 0.06s;}
+.menu-splitR li.animate:nth-of-type(3){	margin-left:0px;	transition-delay: 0.1s;}
 
-.menu-splitR li:nth-of-type(4){	margin-left:-217px;transition-delay: 0.03s;}
-.menu-splitR li.animate:nth-of-type(4){	margin-left:-160px;	transition-delay: 0.15s;}
+.menu-splitR li:nth-of-type(4){	margin-left:-100px;transition-delay: 0.03s;}
+.menu-splitR li.animate:nth-of-type(4){	margin-left:0px;	transition-delay: 0.15s;}
 
-.menu-splitR li:nth-of-type(5){	margin-left:-217px;	transition-delay: 0.0s;	}
-.menu-splitR li.animate:nth-of-type(5){	margin-left:-160px;	transition-delay: 0.2s;	}
+.menu-splitR li:nth-of-type(5){	margin-left:100px;	transition-delay: 0.0s;	}
+.menu-splitR li.animate:nth-of-type(5){	margin-left:0px;	transition-delay: 0.2s;	}
