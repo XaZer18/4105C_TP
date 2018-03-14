@@ -184,16 +184,16 @@ div.menu li.animate{
 
 
 .menu-splitR li:nth-of-type(1){margin-left: -1000px; transition-delay: 0.10s;}
-.menu-splitR li.animate:nth-of-type(1){	margin-left:35vw; transition-delay: 0.0s;	}
+.menu-splitR li.animate:nth-of-type(1){	margin-left:34vw; transition-delay: 0.0s;	}
 
 .menu-splitR li:nth-of-type(2){	margin-left: 1000px;	transition-delay: 0.15s;}
-.menu-splitR li.animate:nth-of-type(2){	margin-left:35vw; transition-delay: 0.00s;}
+.menu-splitR li.animate:nth-of-type(2){	margin-left:34vw; transition-delay: 0.00s;}
 
 .menu-splitR li:nth-of-type(3){	margin-left: -1000px;	transition-delay: 0.20s;}
-.menu-splitR li.animate:nth-of-type(3){	margin-left:35vw; 	transition-delay: 0.00s;}
+.menu-splitR li.animate:nth-of-type(3){	margin-left:34vw; 	transition-delay: 0.00s;}
 
 .menu-splitR li:nth-of-type(4){	margin-left: 1000px;transition-delay: 0.25s;}
-.menu-splitR li.animate:nth-of-type(4){	margin-left:35vw; 	transition-delay: 0.10s;}
+.menu-splitR li.animate:nth-of-type(4){	margin-left:34vw; 	transition-delay: 0.10s;}
 
 .menu-splitR li:nth-of-type(5){	margin-left: -1000px;	transition-delay: 0.30s;}
-.menu-splitR li.animate:nth-of-type(5){	margin-left:35vw; transition-delay: 0.2s;	}
+.menu-splitR li.animate:nth-of-type(5){	margin-left:34vw; transition-delay: 0.2s;	}
