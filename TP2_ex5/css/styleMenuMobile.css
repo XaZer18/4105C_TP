@@ -140,7 +140,7 @@ div.menu {
   /* margin: 0 auto; */
   overflow:hidden;
 	position: absolute;
-	top: 170px;
+	top: 25vh;
 	width:100vw;
 }
 
