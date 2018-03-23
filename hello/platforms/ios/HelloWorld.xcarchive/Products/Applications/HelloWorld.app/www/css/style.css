@@ -1,0 +1,356 @@
+/* CLASSIC */
+*{
+  font-family: 'Teko', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+h2{
+  font-size: 2em;
+}
+h3{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 0.8em;
+  margin: 10px 0 10px 0;
+  color: #686868;
+  line-height: 1.625;
+}
+p.small{
+  font-size: 0.65em;
+}
+
+body{
+  margin: 0;
+}
+
+/* HEADER */
+header{
+    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: black; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    /* opacity: 1; */
+    position: relative;
+    z-index: 10;
+}
+#menuMobile{
+  display: none;
+}
+/* header:hover{
+  background-color: rgba(0, 0, 0, 1);
+} */
+header #boiteLogo{
+  height: 100%;
+  margin: auto auto auto 30px;
+  background-color: rgb(251, 100, 0);
+}
+header img#logo{
+  height: 75%;
+  margin-top: 10px;
+}
+header #menu{
+  margin: auto auto auto auto;
+  margin-right: 30px;
+}
+header #menu a{
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+header #menu a:hover{
+  color: rgb(251, 100, 0);
+  opacity: 1;
+}
+header #menu input{
+  border-radius: 5px;
+  padding-left: 3px;
+  opacity: 0.7;
+}
+header #menu input:hover{
+  opacity: 1;
+}
+
+#imageBandeau{
+  height: 380px;
+  margin-top: -80px;
+  width: 100%;
+  z-index: 0;
+}
+.image{
+  background-image: url(../img/duke/duke2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Introduction */
+#paragrapheIntro{
+  margin: 0 30px 0 30px;
+  display: inline-flex;
+}
+#paragrapheIntro div{
+  width: 40%;
+  display: block;
+  margin: auto auto auto auto;
+}
+#paragrapheIntro img{
+  width: 100%;
+  height: auto;
+}
+#paragrapheIntro h1{
+  text-transform: uppercase;
+}
+
+/* 4 photos */
+#photos4{
+  width: 100%;
+  display: inline-flex;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.bloc4photos{
+  width: 15%;
+  margin: 0 auto;
+}
+.bloc4photos img{
+  width: 100%;
+  height: auto;
+}
+
+/* MAP ET FORMULAIRE*/
+#mapForm{
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 40px;
+}
+#mapForm h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 5%;
+}
+#map{
+  width: 50%;
+  height: 100%;
+}
+iframe{
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  height: 300px;
+}
+#mapForm .separateur{
+  width: 1px;
+  height: auto;
+  border-right: solid black 1px;
+}
+#form{
+  width: 50%;
+  display: block;
+  padding: 0 20px 0 20px;
+}
+#form form{
+  width: 100%;
+}
+#form input{
+  width: 100%;
+  height: 30px;
+  border: solid 1px grey;
+  color: black;
+  margin: 5px 5px 10px 5px;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+.col2{
+  display: flex;
+  width: 100%;
+}
+.col1{
+  width: 100%;
+}
+
+/* MEDIA */
+@media screen and (max-width: 800px){
+
+  /* Bandeau */
+  .image{
+    background-image: url(../img/duke/duke2tablette.jpg);
+  }
+
+  /* Introduction */
+  #paragrapheIntro{
+    display: block;
+  }
+  #paragrapheIntro div{
+    width: 100%;
+    display: block;
+  }
+  #paragrapheIntro img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* 4 photos */
+  #photos4{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* #photos2{
+    width: 75%;
+    display: inline-flex;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 50px;
+  } */
+  .bloc4photos{
+    width: 30%;
+    margin: 0 auto;
+    display: inline-block;
+    margin: 30px;
+  }
+  .bloc4photos img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* Formulaire */
+  .col2{
+    display: inline-block;
+    width: 100%;
+  }
+  .col1{
+    width: 100%;
+  }
+
+  /* FOOTER */
+  footer{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 550px), screen and (orientation:landscape) and (max-height: 550px){
+
+  header{
+    height: 50px;
+  }
+
+  #menu{
+    display: none;
+  }
+  #menuMobile{
+    display: block;
+    width: 100vw;
+    height: 100vw;
+    margin-left: -101px;
+  }
+
+  h1{
+    font-size: 2.5em;
+    margin: 10px 0 10px 0;
+    text-align: center;
+  }
+  p{
+    font-size: 0.7em;
+    text-align: center;
+  }
+
+  /* Bandeau */
+  .image{
+    background-image: url(../img/duke/duke2mobile.jpg);
+  }
+
+  /* Introduction */
+  #paragrapheIntro{
+    display: block;
+  }
+  #paragrapheIntro div{
+    width: 100%;
+    display: block;
+  }
+  #paragrapheIntro img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* 4 photos */
+  #photos4{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #photos2{
+    /* width: 75%; */
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 50px;
+  }
+  .bloc4photos{
+    width: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    margin: 30px;
+  }
+  .bloc4photos img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* MAP ET FORMULAIRE*/
+  #mapForm{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  #map{
+    width: 100%;
+    height: 100%;
+  }
+  #form{
+    width: 90%;
+    display: block;
+    padding: 0 20px 0 20px;
+  }
+
+}
+
+@media all and (max-device-width: 350px){
+
+  input{
+    width: 75%;
+  }
+
+}
+
+@media screen and (-webkit-max-device-pixel-ratio: 1){
+  #iut{
+    content: url("../img/logo-iutx300.jpg");
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2){
+  #iut{
+    content: url("../img/logo-iut-hq.jpg");
+  }
+}
