@@ -86,11 +86,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		H92l2B6DYikdW1Qo0N+lF1+6BEk=
+		Ym3nYdihFMEIkAMSxf+HPXj1PLM=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		F9jl64qm2mWJ++qehiKCsempCgw=
+		zbr8h0+8s98Y9OZs1IZRgIjGRqA=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		4EG/r3eOoFbYPPY9QuAck+wyjG8=
+		vb3w3azQcPzQkoAQl2jjm2JKtY8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		XQQv4aZ/6gaSiP2V8I2Ok5jfnOk=
+		IblmfflPcIeMBE8bJbhRkjPzsns=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		hwAnOtT99BogSQjd/ZF2k3bDsks=
+		iQzdnIbgU9jlGlLu0gtPNx6sRlg=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -150,11 +150,11 @@
 		</data>
 		<key>www/cordova_plugins.js</key>
 		<data>
-		WVsestgLqEM2pFtBg0Bq9OPuqlI=
+		RSZBXmIfavY/8tVwqNr08zBUWzQ=
 		</data>
 		<key>www/css/style.css</key>
 		<data>
-		sUqfJP3oVb6s4XnNO4czEdxCRwM=
+		VRxLJqpHOv63wKz56BURCIvzm90=
 		</data>
 		<key>www/css/styleMenuMobile.css</key>
 		<data>
@@ -246,7 +246,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		BibyeOGb5lGSvAaa25JZ5w5uNIo=
+		DB2iVdPoeeIQMFEJB7l9WwqSS+g=
 		</data>
 		<key>www/js/random.js</key>
 		<data>
@@ -254,7 +254,7 @@
 		</data>
 		<key>www/js/scriptCordova.js</key>
 		<data>
-		QdtLlQQYrsC8044wl1EJ22G/uiE=
+		p1PIVpGrqPa2OPwHsC52eKUIpkY=
 		</data>
 		<key>www/js/scriptMenuMobile.js</key>
 		<data>
@@ -263,6 +263,54 @@
 		<key>www/plugins/cordova-plugin-battery-status/www/battery.js</key>
 		<data>
 		ldDpFZ4RbbROANrzzs/KaDUX2FE=
+		</data>
+		<key>www/plugins/cordova-plugin-contacts/www/Contact.js</key>
+		<data>
+		ZUavr0DOeE59UYjPf6KwIKipn90=
+		</data>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactAddress.js</key>
+		<data>
+		8EVbCMR+rjQhk8aPw9/bGZcLuN0=
+		</data>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactError.js</key>
+		<data>
+		+GAXGSiqfh/3Njnos6kY8CC1LHY=
+		</data>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactField.js</key>
+		<data>
+		Pt2SQDGB20nHTJq/sWAw0Jj/fH0=
+		</data>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactFieldType.js</key>
+		<data>
+		V4KYgA/L5pCTGkPblS07eOl73Ys=
+		</data>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactFindOptions.js</key>
+		<data>
+		5ppEzn/GChnk7k/xiict62QUCpw=
+		</data>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactName.js</key>
+		<data>
+		31GFvzig0lq4D3kZR6hHPZtxKUY=
+		</data>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactOrganization.js</key>
+		<data>
+		z2FmkedO8KwyWNDNYZrQ3778Tso=
+		</data>
+		<key>www/plugins/cordova-plugin-contacts/www/contacts.js</key>
+		<data>
+		NuGnzaku3so7vd76HBRdZTrvBkg=
+		</data>
+		<key>www/plugins/cordova-plugin-contacts/www/convertUtils.js</key>
+		<data>
+		HQPxA1EdLsJ9dfdYTnsRrjWYEto=
+		</data>
+		<key>www/plugins/cordova-plugin-contacts/www/ios/Contact.js</key>
+		<data>
+		rnyLfYScluNiNlm58jBYXaeS6cs=
+		</data>
+		<key>www/plugins/cordova-plugin-contacts/www/ios/contacts.js</key>
+		<data>
+		G2uJ4O9mXXHsd9uQ/BKlRP5awss=
 		</data>
 		<key>www/plugins/cordova-plugin-device/www/device.js</key>
 		<data>
@@ -503,22 +551,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H92l2B6DYikdW1Qo0N+lF1+6BEk=
+			Ym3nYdihFMEIkAMSxf+HPXj1PLM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Pn6Y+2Ha/pe7g7o1yVotkeYvC/HLaHVTUCq45Kz1qQI=
+			eCfe0bnxgmsUuZg8zGBrxL1sO9hraaMC4TamFgmP8Q4=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			F9jl64qm2mWJ++qehiKCsempCgw=
+			zbr8h0+8s98Y9OZs1IZRgIjGRqA=
 			</data>
 			<key>hash2</key>
 			<data>
-			THUhnIAhnq8AXDGFlFDeHh9m2ZlHjMmXjNO3L9XXafE=
+			xyxjDg4X074m/q1yKvWFffgRSe3BZApbxbitV9b3LSs=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -536,22 +584,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4EG/r3eOoFbYPPY9QuAck+wyjG8=
+			vb3w3azQcPzQkoAQl2jjm2JKtY8=
 			</data>
 			<key>hash2</key>
 			<data>
-			NfUOUgZdtiPTVDQD5llWjSPoQ8qNm9UbS8T4SQYMJ/k=
+			eaIVHJQTVcgE0RY2UFrssLPeMIABlt61Ol6loTqicwo=
 			</data>
 		</dict>
 		<key>MainViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XQQv4aZ/6gaSiP2V8I2Ok5jfnOk=
+			IblmfflPcIeMBE8bJbhRkjPzsns=
 			</data>
 			<key>hash2</key>
 			<data>
-			fOHp3qtcLZIxSBQOKcMgDwrocqFrD82UUsoO2tPCjI8=
+			EO7bGUUamVb3VP48RbPjVYxmQTuYVghPDgf0P3SvKkY=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -569,11 +617,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hwAnOtT99BogSQjd/ZF2k3bDsks=
+			iQzdnIbgU9jlGlLu0gtPNx6sRlg=
 			</data>
 			<key>hash2</key>
 			<data>
-			XU/gBUGOhQ3sXphiL0oFHwJHsCG7vVBCRHI1Jjy7rDA=
+			kPGKDT52lxCzGuQ7yL65023UEb7a94trMe/0PlWgVFU=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -657,22 +705,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WVsestgLqEM2pFtBg0Bq9OPuqlI=
+			RSZBXmIfavY/8tVwqNr08zBUWzQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			9YVDTrnVpdJIdLG0693dzhllwaWnmwKPODNOUKh8ylw=
+			alvokBC85AkJgcoqK03McblndUrDNL40uUitwMBVJWo=
 			</data>
 		</dict>
 		<key>www/css/style.css</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sUqfJP3oVb6s4XnNO4czEdxCRwM=
+			VRxLJqpHOv63wKz56BURCIvzm90=
 			</data>
 			<key>hash2</key>
 			<data>
-			+AHs/eYAMDuh4Jc39iO7OPm+FHM5DDGs70rk+0ctdyU=
+			0fllketl+2ywzNC1mt7bWWIKUql2yOxsx+H4W7g5MY0=
 			</data>
 		</dict>
 		<key>www/css/styleMenuMobile.css</key>
@@ -921,11 +969,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BibyeOGb5lGSvAaa25JZ5w5uNIo=
+			DB2iVdPoeeIQMFEJB7l9WwqSS+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			PKf0rjhGgYICz/yzlxHaNtu7UEadta5sCM7e9CxWo+Q=
+			4y4v16+kCv5w2c589judEaRelL2ndTYIrJ9aTEDRd3w=
 			</data>
 		</dict>
 		<key>www/js/random.js</key>
@@ -943,11 +991,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QdtLlQQYrsC8044wl1EJ22G/uiE=
+			p1PIVpGrqPa2OPwHsC52eKUIpkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			6t7gj4cVTksFV+PB3LweRtdHYJepfPCrZy3jF0Yqmc4=
+			cshixpgEBx8E/2ymUH9mJYsAiWa45Pt7KWbgvwY5u5Y=
 			</data>
 		</dict>
 		<key>www/js/scriptMenuMobile.js</key>
@@ -970,6 +1018,138 @@
 			<key>hash2</key>
 			<data>
 			GlMFJkb2RoiicZ4UF9WCIXW+LRMrN7e8R0cPFZ8qe+4=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-contacts/www/Contact.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZUavr0DOeE59UYjPf6KwIKipn90=
+			</data>
+			<key>hash2</key>
+			<data>
+			NjNAQ45+92jsqNO9dunv25ttmTDBvhWkvNR7ee00ROM=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactAddress.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8EVbCMR+rjQhk8aPw9/bGZcLuN0=
+			</data>
+			<key>hash2</key>
+			<data>
+			fwgDO150oVEeAQMQiMwu6gPNoJCJ2dJ/OswE/cnz6ac=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactError.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+GAXGSiqfh/3Njnos6kY8CC1LHY=
+			</data>
+			<key>hash2</key>
+			<data>
+			beM87Wn8EhrATAi0qbjuRVWtLpAuDRhH67vjP+RxdkQ=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactField.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Pt2SQDGB20nHTJq/sWAw0Jj/fH0=
+			</data>
+			<key>hash2</key>
+			<data>
+			WYdPWeKc3U7vryklHLQ7G3Y/8eM3f9q1FjgxOyuc4R4=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactFieldType.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V4KYgA/L5pCTGkPblS07eOl73Ys=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xb8qQwTcNyqSn7A5858aBaNn9kfaDcjpxHhJAWZiz4c=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactFindOptions.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5ppEzn/GChnk7k/xiict62QUCpw=
+			</data>
+			<key>hash2</key>
+			<data>
+			OJHPeru3O263+y/yEhYdbcP6y6tew3auVab3C9zrXJE=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactName.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			31GFvzig0lq4D3kZR6hHPZtxKUY=
+			</data>
+			<key>hash2</key>
+			<data>
+			AJ0BnUyk8TQcAHsijciYM7k3gqBhQGJUqlwCetObbU8=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-contacts/www/ContactOrganization.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			z2FmkedO8KwyWNDNYZrQ3778Tso=
+			</data>
+			<key>hash2</key>
+			<data>
+			nR2gZC51mkgau2kotq0AO4EpvkxX2s/RqzmKINhDoBs=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-contacts/www/contacts.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NuGnzaku3so7vd76HBRdZTrvBkg=
+			</data>
+			<key>hash2</key>
+			<data>
+			DsoZ9vpyi7y9+KhwAPx70Gro/2/KxvEORuH8E2/GBdg=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-contacts/www/convertUtils.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HQPxA1EdLsJ9dfdYTnsRrjWYEto=
+			</data>
+			<key>hash2</key>
+			<data>
+			rHsfxcmH8qw27uXGxXRPOGfytMPHRoO1MPVolzVS1OU=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-contacts/www/ios/Contact.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rnyLfYScluNiNlm58jBYXaeS6cs=
+			</data>
+			<key>hash2</key>
+			<data>
+			DNFV2c0mAmYu54EZ6zWPSxcA2nBbmBN7Xm1/3AGK9DI=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-contacts/www/ios/contacts.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			G2uJ4O9mXXHsd9uQ/BKlRP5awss=
+			</data>
+			<key>hash2</key>
+			<data>
+			3/pW9XShPcoXnmSj8txUV+vkZ6NuADASFfN3VhcmikM=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-device/www/device.js</key>

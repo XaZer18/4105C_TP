@@ -21,6 +21,9 @@
     },
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "duke39090"
+    },
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "duke39090"
     }
   },
   "dependent_plugins": {}
