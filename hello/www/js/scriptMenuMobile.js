@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+    //MENU
     if( 'ontouchstart' in window ){ var click = 'touchstart'; }
     else { var click = 'click'; }
 
@@ -55,5 +56,6 @@ $(document).ready(function(){
       }, 100);
 
     }
+    //FIN MENU
 
 });
