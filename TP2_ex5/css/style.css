@@ -246,7 +246,7 @@ iframe{
 
 }
 
-@media screen and (max-width: 550px), screen and (orientation:landscape) and (max-height: 550px){
+@media screen and (max-width: 550px), screen and (orientation:landscape) and (max-device-height: 550px){
 
   header{
     height: 50px;
