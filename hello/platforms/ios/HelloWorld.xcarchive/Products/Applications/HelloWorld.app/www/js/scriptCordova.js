@@ -8,7 +8,7 @@ function onDeviceReady() {
 
   alert("Modèle: "+model+"\nPlateforme: "+platform+"\nVersion: "+version+"\nUUID: "+uuid);
 
-  StatusBar.show();
-  StatusBar.backgroundColorByHexString("#FB6400");
+  // StatusBar.show();
+  // StatusBar.backgroundColorByHexString("#FB6400");
 
 }
